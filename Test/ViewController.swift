@@ -10,11 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var button: UIButton!
+    
+    @IBAction func pressedButton(_ sender: Any) {
+        prefersHidden = !prefersHidden
+        if prefersHidden {
+            button.setTitle("Show", for: .normal)
+        } else {
+            button.setTitle("Hide", for: .normal)
+        }
+        UIView.animate(withDuration: 0.5) {
+            self.setNeedsStatusBarAppearanceUpdate()
+        }
     }
-
+    
+    var prefersHidden: Bool = false
+    
+    override var prefersStatusBarHidden: Bool {
+        return prefersHidden
+    }
+    
+    override func setNeedsStatusBarAppearanceUpdate() {
+        super.setNeedsStatusBarAppearanceUpdate()
+    }
 
 }
 

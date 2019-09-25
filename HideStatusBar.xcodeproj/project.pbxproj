@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9D4E83AB233BB26B00A83958 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4E83AB233BB26B00A83958 /* HideStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4E83AE233BB26B00A83958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4E83B0233BB26B00A83958 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9D4E83B2233BB26B00A83958 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		9D4E83B7233BB26C00A83958 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4E83BA233BB26C00A83958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D4E83BC233BB26C00A83958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D4E83C1233BB26C00A83958 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4E83C1233BB26C00A83958 /* HideStatusBarHideStatusBars.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideStatusBarHideStatusBars.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4E83C5233BB26C00A83958 /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
 		9D4E83C7233BB26C00A83958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9D4E83CC233BB26D00A83958 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D4E83CC233BB26D00A83958 /* HideStatusBarUIHideStatusBars.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideStatusBarUIHideStatusBars.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4E83D0233BB26D00A83958 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		9D4E83D2233BB26D00A83958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		9D4E83AC233BB26B00A83958 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D4E83AB233BB26B00A83958 /* Test.app */,
-				9D4E83C1233BB26C00A83958 /* TestTests.xctest */,
-				9D4E83CC233BB26D00A83958 /* TestUITests.xctest */,
+				9D4E83AB233BB26B00A83958 /* HideStatusBar.app */,
+				9D4E83C1233BB26C00A83958 /* HideStatusBarHideStatusBars.xctest */,
+				9D4E83CC233BB26D00A83958 /* HideStatusBarUIHideStatusBars.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D4E83AA233BB26B00A83958 /* Test */ = {
+		9D4E83AA233BB26B00A83958 /* HideStatusBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D4E83D5233BB26D00A83958 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 9D4E83D5233BB26D00A83958 /* Build configuration list for PBXNativeTarget "HideStatusBar" */;
 			buildPhases = (
 				9D4E83A7233BB26B00A83958 /* Sources */,
 				9D4E83A8233BB26B00A83958 /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = HideStatusBar;
 			productName = Test;
-			productReference = 9D4E83AB233BB26B00A83958 /* Test.app */;
+			productReference = 9D4E83AB233BB26B00A83958 /* HideStatusBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9D4E83C0233BB26C00A83958 /* TestTests */ = {
+		9D4E83C0233BB26C00A83958 /* HideStatusBarHideStatusBars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D4E83D8233BB26D00A83958 /* Build configuration list for PBXNativeTarget "TestTests" */;
+			buildConfigurationList = 9D4E83D8233BB26D00A83958 /* Build configuration list for PBXNativeTarget "HideStatusBarHideStatusBars" */;
 			buildPhases = (
 				9D4E83BD233BB26C00A83958 /* Sources */,
 				9D4E83BE233BB26C00A83958 /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				9D4E83C3233BB26C00A83958 /* PBXTargetDependency */,
 			);
-			name = TestTests;
+			name = HideStatusBarHideStatusBars;
 			productName = TestTests;
-			productReference = 9D4E83C1233BB26C00A83958 /* TestTests.xctest */;
+			productReference = 9D4E83C1233BB26C00A83958 /* HideStatusBarHideStatusBars.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9D4E83CB233BB26D00A83958 /* TestUITests */ = {
+		9D4E83CB233BB26D00A83958 /* HideStatusBarUIHideStatusBars */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D4E83DB233BB26D00A83958 /* Build configuration list for PBXNativeTarget "TestUITests" */;
+			buildConfigurationList = 9D4E83DB233BB26D00A83958 /* Build configuration list for PBXNativeTarget "HideStatusBarUIHideStatusBars" */;
 			buildPhases = (
 				9D4E83C8233BB26D00A83958 /* Sources */,
 				9D4E83C9233BB26D00A83958 /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				9D4E83CE233BB26D00A83958 /* PBXTargetDependency */,
 			);
-			name = TestUITests;
+			name = HideStatusBarUIHideStatusBars;
 			productName = TestUITests;
-			productReference = 9D4E83CC233BB26D00A83958 /* TestUITests.xctest */;
+			productReference = 9D4E83CC233BB26D00A83958 /* HideStatusBarUIHideStatusBars.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D4E83A6233BB26B00A83958 /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 9D4E83A6233BB26B00A83958 /* Build configuration list for PBXProject "HideStatusBar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D4E83AA233BB26B00A83958 /* Test */,
-				9D4E83C0233BB26C00A83958 /* TestTests */,
-				9D4E83CB233BB26D00A83958 /* TestUITests */,
+				9D4E83AA233BB26B00A83958 /* HideStatusBar */,
+				9D4E83C0233BB26C00A83958 /* HideStatusBarHideStatusBars */,
+				9D4E83CB233BB26D00A83958 /* HideStatusBarUIHideStatusBars */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		9D4E83C3233BB26C00A83958 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D4E83AA233BB26B00A83958 /* Test */;
+			target = 9D4E83AA233BB26B00A83958 /* HideStatusBar */;
 			targetProxy = 9D4E83C2233BB26C00A83958 /* PBXContainerItemProxy */;
 		};
 		9D4E83CE233BB26D00A83958 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9D4E83AA233BB26B00A83958 /* Test */;
+			target = 9D4E83AA233BB26B00A83958 /* HideStatusBar */;
 			targetProxy = 9D4E83CD233BB26D00A83958 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 974TYEJCT3;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +453,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 974TYEJCT3;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -481,7 +483,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideStatusBar.app/HideStatusBar";
 			};
 			name = Debug;
 		};
@@ -502,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Test.app/Test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideStatusBar.app/HideStatusBar";
 			};
 			name = Release;
 		};
@@ -547,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D4E83A6233BB26B00A83958 /* Build configuration list for PBXProject "Test" */ = {
+		9D4E83A6233BB26B00A83958 /* Build configuration list for PBXProject "HideStatusBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D4E83D3233BB26D00A83958 /* Debug */,
@@ -556,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D4E83D5233BB26D00A83958 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		9D4E83D5233BB26D00A83958 /* Build configuration list for PBXNativeTarget "HideStatusBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D4E83D6233BB26D00A83958 /* Debug */,
@@ -565,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D4E83D8233BB26D00A83958 /* Build configuration list for PBXNativeTarget "TestTests" */ = {
+		9D4E83D8233BB26D00A83958 /* Build configuration list for PBXNativeTarget "HideStatusBarHideStatusBars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D4E83D9233BB26D00A83958 /* Debug */,
@@ -574,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D4E83DB233BB26D00A83958 /* Build configuration list for PBXNativeTarget "TestUITests" */ = {
+		9D4E83DB233BB26D00A83958 /* Build configuration list for PBXNativeTarget "HideStatusBarUIHideStatusBars" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D4E83DC233BB26D00A83958 /* Debug */,
